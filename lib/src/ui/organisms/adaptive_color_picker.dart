@@ -11,9 +11,16 @@ import '../molecules/color_input_field.dart';
 
 /// An adaptive color picker that adjusts its layout based on screen size and platform.
 class AdaptiveColorPicker extends StatelessWidget {
+  /// The controller that manages the color state and history.
   final CosmicColorController controller;
+
+  /// Whether to show the alpha/opacity slider.
   final bool showAlpha;
+
+  /// Whether to show the hex color input field.
   final bool showHex;
+
+  /// Callback when the user confirms the color selection.
   final VoidCallback? onColorConfirmed;
 
   const AdaptiveColorPicker({

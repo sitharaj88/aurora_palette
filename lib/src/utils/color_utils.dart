@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
+/// Internal utility functions for color conversion and component extraction.
 class ColorUtils {
   /// Helper to get red component (0-255) from Color.
   static int getRed(Color color) => (color.r * 255.0).round().clamp(0, 255);

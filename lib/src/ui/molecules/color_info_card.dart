@@ -7,7 +7,10 @@ import 'cosmic_glass_container.dart';
 
 /// A beautiful card showing detailed color information.
 class ColorInfoCard extends StatelessWidget {
+  /// The color to analyze and display information for.
   final Color color;
+
+  /// Callback when the hex code is successfully copied to the clipboard.
   final VoidCallback? onCopyHex;
 
   const ColorInfoCard({super.key, required this.color, this.onCopyHex});

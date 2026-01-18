@@ -1,15 +1,26 @@
 import 'package:flutter/material.dart';
 
+/// Design tokens and styling constants for the Cosmic theme.
 class CosmicDesign {
-  // Colors
+  /// Base background color for the picker.
   static const Color background = Color(0xFF0F0F1A);
+
+  /// Surface color for interior components.
   static const Color surface = Color(0xFF1A1A2E);
+
+  /// Translucent white surface for glassmorphism effects.
   static const Color glassSurface = Color(0x33FFFFFF);
+
+  /// Bright cyan neon accent.
   static const Color neonCyan = Color(0xFF00F2FF);
+
+  /// Deep purple neon accent.
   static const Color neonPurple = Color(0xFFBD00FF);
+
+  /// Intense pink neon accent.
   static const Color neonPink = Color(0xFFFF00D6);
 
-  // Shadows & Glows
+  /// Generates a neon-style glow shadow using the provided color.
   static List<BoxShadow> neonGlow(Color color) => [
     BoxShadow(
       color: color.withValues(alpha: 0.5),

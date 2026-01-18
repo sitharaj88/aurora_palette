@@ -12,12 +12,25 @@ import '../molecules/spectrum_slider.dart';
 
 /// The main color picker widget with all features.
 class CosmicColorPicker extends StatefulWidget {
+  /// The controller that manages the color state and history.
   final CosmicColorController controller;
+
+  /// Whether to show the hex color input field.
   final bool showHex;
+
+  /// Whether to show the RGB color input fields.
   final bool showRgb;
+
+  /// Whether to show the alpha/opacity slider.
   final bool showAlpha;
+
+  /// Whether to show the recent colors history bar.
   final bool showRecentColors;
+
+  /// Whether to enable haptic feedback on selector movement.
   final bool enableHaptics;
+
+  /// Callback when the user confirms the color selection.
   final VoidCallback? onColorConfirmed;
 
   const CosmicColorPicker({

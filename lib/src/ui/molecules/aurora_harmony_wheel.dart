@@ -5,8 +5,13 @@ import '../../utils/color_harmony.dart';
 
 /// A beautiful aurora-animated color harmony display that adapts to available space.
 class AuroraHarmonyWheel extends StatefulWidget {
+  /// The base color from which to generate harmony variations.
   final Color baseColor;
+
+  /// The type of harmony to generate (e.g., Triadic, Complementary).
   final ColorHarmonyType harmonyType;
+
+  /// Callback when a harmony color is tapped.
   final ValueChanged<Color>? onColorSelected;
 
   /// Optional fixed size. If null, adapts to parent constraints.
