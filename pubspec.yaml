@@ -1,0 +1,37 @@
+name: aurora_palette
+description: "Aurora Color Palette - A stunning Flutter color picker with aurora-inspired animations, color harmonies, and intelligent color suggestions. Hand-crafted with premium glassmorphism aesthetics."
+version: 1.0.0
+homepage: https://github.com/sitharaj/aurora_palette
+repository: https://github.com/sitharaj/aurora_palette
+issue_tracker: https://github.com/sitharaj/aurora_palette/issues
+
+environment:
+  sdk: ^3.10.7
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+topics:
+  - color-picker
+  - ui
+  - design
+  - widgets
+  - color-palette
