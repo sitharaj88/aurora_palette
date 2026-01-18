@@ -1,7 +1,7 @@
 # Aurora Palette 🌈
 
 <p align="center">
-  <img src="assets/banner.jpeg" alt="Aurora Palette Banner" width="800">
+  <img src="https://raw.githubusercontent.com/sitharaj88/aurora_palette/main/assets/banner.jpeg" alt="Aurora Palette Banner" width="800">
 </p>
 
 A stunning Flutter color picker library with **aurora-inspired animations**, **intelligent color harmonies**, and **premium glassmorphism aesthetics**.
@@ -43,7 +43,7 @@ Generate beautiful color palettes with the aurora-animated harmony wheel:
 ## 📺 Demo
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Aurora Palette Demo" width="240">
+  <img src="https://raw.githubusercontent.com/sitharaj88/aurora_palette/main/assets/demo.gif" alt="Aurora Palette Demo" width="240">
 </p>
 
 ## 📦 Installation

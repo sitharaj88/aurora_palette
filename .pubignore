@@ -1,0 +1,18 @@
+# Put files here that should be ignored by 'flutter pub' but NOT by git.
+assets/
+example/
+test/
+build/
+.dart_tool/
+.github/
+.vscode/
+.idea/
+*.iml
+*.log
+.DS_Store
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
