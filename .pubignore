@@ -1,6 +1,5 @@
 # Put files here that should be ignored by 'flutter pub' but NOT by git.
-assets/demo.MP4
-assets/screenshots.png
+assets/
 build/
 .dart_tool/
 .github/
@@ -16,10 +15,11 @@ build/
 .pub/
 pubspec.lock
 
-# Ignore internal build files in example
+# Ignore internal files in example
 example/build/
 example/.dart_tool/
 example/.flutter-plugins
 example/.flutter-plugins-dependencies
 example/.packages
 example/pubspec.lock
+example/assets/

@@ -1,3 +1,11 @@
+## 1.0.1
+
+- 📝 Improved documentation with DartDoc comments
+- 📦 Optimized package size by excluding large assets
+- 🔗 Fixed repository and homepage URLs in pubspec
+- 🚀 Included example project for pub.dev
+- ✨ Polished responsive layouts
+
 ## 1.0.0
 
 - 🎉 Initial release
